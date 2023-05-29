@@ -12,5 +12,12 @@ public class Calculator {
 	public int divide(int a, int b) {
 		return a / b;
 	}
+	public int exponential(int a, int b) {
+		int result = a;
+		for (int i = 1; i < b; i++) {
+			result = result * a;
+		}
+		return result;
+	}
 
 }
